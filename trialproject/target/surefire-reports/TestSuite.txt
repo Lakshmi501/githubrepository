@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 3.464 s <<< FAILURE! - in TestSuite
+openAppn(regressionscripts.ValidLogin)  Time elapsed: 1.146 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\laksh\Do\geckodriver-v0.31.0-win32\geckodriver.exe
+
+openAppn(regressionscripts.InvalidLogin)  Time elapsed: 1.155 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\laksh\Do\geckodriver-v0.31.0-win32\geckodriver.exe
+
+openAppn(regressionscripts.ValidLogin)  Time elapsed: 2.502 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAKSHMIPC', ip: '192.168.43.133', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00635FD3+2187219]
+	Ordinal0 [0x005CE6D1+1763025]
+	Ordinal0 [0x004E3E78+802424]
+	Ordinal0 [0x005051F9+938489]
+	Ordinal0 [0x00500DDC+921052]
+	Ordinal0 [0x004FE691+910993]
+	Ordinal0 [0x005317F0+1120240]
+	Ordinal0 [0x0053144A+1119306]
+	Ordinal0 [0x0052C9A6+1100198]
+	Ordinal0 [0x00506F80+946048]
+	Ordinal0 [0x00507E76+949878]
+	GetHandleVerifier [0x008D90C2+2721218]
+	GetHandleVerifier [0x008CAAF0+2662384]
+	GetHandleVerifier [0x006C137A+526458]
+	GetHandleVerifier [0x006C0416+522518]
+	Ordinal0 [0x005D4EAB+1789611]
+	Ordinal0 [0x005D97A8+1808296]
+	Ordinal0 [0x005D9895+1808533]
+	Ordinal0 [0x005E26C1+1844929]
+	BaseThreadInitThunk [0x76FB6739+25]
+	RtlGetFullPathName_UEx [0x77AD90AF+1215]
+	RtlGetFullPathName_UEx [0x77AD907D+1165]
+
+
+openAppn(regressionscripts.InvalidLogin)  Time elapsed: 3.335 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAKSHMIPC', ip: '192.168.43.133', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00635FD3+2187219]
+	Ordinal0 [0x005CE6D1+1763025]
+	Ordinal0 [0x004E3E78+802424]
+	Ordinal0 [0x005051F9+938489]
+	Ordinal0 [0x00500DDC+921052]
+	Ordinal0 [0x004FE691+910993]
+	Ordinal0 [0x005317F0+1120240]
+	Ordinal0 [0x0053144A+1119306]
+	Ordinal0 [0x0052C9A6+1100198]
+	Ordinal0 [0x00506F80+946048]
+	Ordinal0 [0x00507E76+949878]
+	GetHandleVerifier [0x008D90C2+2721218]
+	GetHandleVerifier [0x008CAAF0+2662384]
+	GetHandleVerifier [0x006C137A+526458]
+	GetHandleVerifier [0x006C0416+522518]
+	Ordinal0 [0x005D4EAB+1789611]
+	Ordinal0 [0x005D97A8+1808296]
+	Ordinal0 [0x005D9895+1808533]
+	Ordinal0 [0x005E26C1+1844929]
+	BaseThreadInitThunk [0x76FB6739+25]
+	RtlGetFullPathName_UEx [0x77AD90AF+1215]
+	RtlGetFullPathName_UEx [0x77AD907D+1165]
+
+

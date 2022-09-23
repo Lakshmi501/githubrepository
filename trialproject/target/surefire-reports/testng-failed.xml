@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Test_firefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="regressionscripts.InvalidLogin">
+        <methods>
+          <include name="closeAppn"/>
+          <include name="openAppn"/>
+          <include name="InvalidLogin"/>
+        </methods>
+      </class> <!-- regressionscripts.InvalidLogin -->
+      <class name="regressionscripts.ValidLogin">
+        <methods>
+          <include name="closeAppn"/>
+          <include name="openAppn"/>
+          <include name="validlogin"/>
+        </methods>
+      </class> <!-- regressionscripts.ValidLogin -->
+    </classes>
+  </test> <!-- Test_firefox(failed) -->
+  <test thread-count="5" parallel="tests" name="Test_Chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="regressionscripts.InvalidLogin">
+        <methods>
+          <include name="closeAppn"/>
+          <include name="openAppn"/>
+          <include name="InvalidLogin"/>
+        </methods>
+      </class> <!-- regressionscripts.InvalidLogin -->
+      <class name="regressionscripts.ValidLogin">
+        <methods>
+          <include name="closeAppn"/>
+          <include name="openAppn"/>
+          <include name="validlogin"/>
+        </methods>
+      </class> <!-- regressionscripts.ValidLogin -->
+    </classes>
+  </test> <!-- Test_Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
